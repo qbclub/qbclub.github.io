@@ -1,3 +1,38 @@
-p{
-color:red;
-}
+nav {
+    color:#85a1ff;
+    }
+  
+  .nav-item.nav-link.active {
+    color:white;
+    padding-left: 0;
+  }
+ .navbar {
+    justify-content: left !important; 
+    padding:0.5rem 0 0.5rem 0 !important;
+ }
+  main{
+    background: #cacaca;
+  }
+  main>div{
+    background: white;
+  }
+  footer {
+    background:#384851;
+    color: white;
+    line-height: 50px;
+  }
+  .breadcrumb {
+      margin-top: 20px;
+  }
+  
+  .item {
+      margin-top: 20px;
+  }
+  hr {
+      size: 1px;
+      color: #384851;         
+  }
+  div button {
+      margin-bottom: 20px;
+  }
+  
