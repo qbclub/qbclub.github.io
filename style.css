@@ -1,19 +1,37 @@
 body{
   background-color: rgb(219, 219, 219) !important;
 }
+header>div{
+  display: flex !important;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+#header-title {
+  flex-grow: 1;
+}
+img{
+  margin-left: 50px;
+  width: 150px;
+}
+
 footer{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   background: white;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(219, 219, 219) !important;
 }
 header {
   text-align: center;
   line-height: 2em;
   background: white;
-  margin-top: 20px;
+  margin-top: 10px;
+  border: 3px solid rgb(219, 219, 219) !important;
   
+}
+header>div{
+  display: inline;
 }
 .col {
   padding-left: 0px !important;
@@ -24,17 +42,30 @@ main {
   }
 .card{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5px;
+  border: 3px solid rgb(219, 219, 219) !important;
+  
+
+  
   /* border: 2px solid black !important; */
 }
 .card-title{
   font-weight: bold;
 }
 
-#middle{
+/* #middle{
   margin-right: 10px;
   margin-left: 10px;
-}
+  
+ 
+} */
+/* #first-block{
+  margin-right: 10px;
+  box-sizing: border-box;
+} */
 ul {
   list-style-position: inside;
+}
+.card-body{
+  min-width: 300px;
 }
