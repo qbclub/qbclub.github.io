@@ -1,5 +1,6 @@
 body{
   background-color: rgb(219, 219, 219) !important;
+ 
 }
 header>div{
   display: flex !important;
@@ -17,7 +18,7 @@ img{
 footer{
   text-align: center;
   margin-top: 10px;
-  background: #9198e5;
+  background: #343f64;
   padding: 10px;
   margin-bottom: 10px;
   border: 3px solid rgb(219, 219, 219) !important;
@@ -26,7 +27,7 @@ footer{
 header {
   text-align: center;
   line-height: 2em;
-  background: linear-gradient(white, #9198e5);
+  background: white;
   margin-top: 10px;
   border: 3px solid rgb(219, 219, 219) !important;
   
@@ -56,12 +57,7 @@ main {
   font-weight: bold;
 }
 
-/* #middle{
-  margin-right: 10px;
-  margin-left: 10px;
-  
- 
-} */
+
 /* #first-block{
   margin-right: 10px;
   box-sizing: border-box;
@@ -71,4 +67,5 @@ ul {
 }
 .card-body{
   min-width: 300px;
+  /* background: rgba(233, 219, 137, 0.4); */
 }
