@@ -69,3 +69,6 @@ ul {
   min-width: 300px;
   /* background: rgba(233, 219, 137, 0.4); */
 }
+p {
+  text-align: left;
+}
