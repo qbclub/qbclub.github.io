@@ -34,9 +34,9 @@ header {
   
   
 }
-header>div{
+/* header>div{
   display: inline;
-}
+} */
 .col {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -71,4 +71,9 @@ ul {
 }
 p {
   text-align: left;
+}
+.dropdown{
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
