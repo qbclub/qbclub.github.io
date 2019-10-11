@@ -79,4 +79,8 @@ p, li {
   bottom: 0;
   right: 0;
 }
+#library{
+  display:flex;
+  justify-content: space-evenly;
+}
 
