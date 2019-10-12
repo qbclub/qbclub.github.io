@@ -82,5 +82,8 @@ p, li {
 #library{
   display:flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
+#library a{
+  margin-right: 10%;
+}
